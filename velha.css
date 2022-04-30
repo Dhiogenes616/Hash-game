@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-image: url(imagens/natureza.jpg);
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content:"\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content:"\1F5E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.by{
+    font-family: 'Water Brush', cursive;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+}
+.insta{
+    position: relative;
+    top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    position: relative;
+    top: 104px;
+}
